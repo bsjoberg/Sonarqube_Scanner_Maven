@@ -1,7 +1,11 @@
 package fun.bdd;
 
-public class ArithmeticOperation {
-    public int add(int addend, int addendNext) {
-        return 20;
+class ArithmeticOperation {
+    int add(int addend, int addendNext) {
+        return addend + addendNext;
+    }
+
+    int subtract(int subend, int subendNext) {
+        return subend - subendNext;
     }
 }
